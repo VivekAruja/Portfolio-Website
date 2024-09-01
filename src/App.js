@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Contact />
     <SocialLinks />
     <SpeedInsights />
+    <Analytics/>
    </div>
   );
 }
