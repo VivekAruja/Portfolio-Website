@@ -1,37 +1,27 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import logo from "../assets/Logo.png";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
-    {
-      id: 1,
-      link: "home",
-    },
-    {
-      id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
-      link: "portfolio",
-    },
-    {
-      id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
-    },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "portfolio" },
+    { id: 4, link: "experience" },
+    { id: 5, link: "contact" },
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-16 px-4 text-white bg-black fixed z-10">
       <div>
-        <h1 className="text-2xl sm:text-4xl font-signature ml-2">Vivek</h1>
+        <img
+          src={logo}
+          alt="Logo"
+          className="h-16 w-auto object-contain cursor-pointer"
+        />
       </div>
 
       <ul className="hidden md:flex">
