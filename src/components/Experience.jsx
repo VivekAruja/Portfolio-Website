@@ -59,14 +59,12 @@ const Experience = () => {
       src: arduino,
       title: "Arduino",
       style: "shadow-[#00979D]",
-      textStyle: "mt-10",
     },
     {
       id: 9,
       src: cc,
       title: "C++",
-      style: "shadow-[#00599C]", // Blue color of the C++ icon
-      textStyle: "mt-10",
+      style: "shadow-[#00599C]",
     }
   ];
 
@@ -77,20 +75,20 @@ const Experience = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-3xl sm:text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-4 sm:py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-          {techs.map(({ id, src, title, style, textStyle }) => (
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8 text-center py-6 sm:py-8 px-8 sm:px-12">
+          {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-102 sm:hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
-              <p className={`mt-4 ${textStyle}`}>{title}</p>
+              <img src={src} alt="" className="w-16 sm:w-20 mx-auto" loading="lazy" />
+              <p className="mt-2 sm:mt-4">{title}</p>
             </div>
           ))}
         </div>
