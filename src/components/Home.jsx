@@ -15,8 +15,8 @@ const Home = () => {
                   Hi! I'm Vivek Aruja
                </h2>
                <p className="text-white py-2 sm:py-4 max-w-md">
-                  I’m a second-year electrical engineering student specializing in AI Technology at the University of Western Ontario. 
-                  Currently, I am looking to broaden my horizons and learn about my interests and hobbies.
+                  I’m a third year dual degree student in Electrical and AI Systems Engineering at the University of Western Ontario.
+                   Currently, I’m looking to broaden my horizons and explore my interests and hobbies.
                </p>
 
                <div>

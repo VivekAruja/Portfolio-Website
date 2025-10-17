@@ -16,7 +16,7 @@ const About = () => {
         <div className="text-base sm:text-xl mt-10 sm:mt-20 leading-relaxed font-light text-gray-300">
           <h2 className="text-xl sm:text-2xl font-semibold text-white">Academic Background</h2>
           <p className="mt-4">
-            I'm currently a <span className="font-bold text-gray-100">second-year student</span> at the University of Western Ontario, pursuing a dual degree in <span className="font-semibold text-white">Electrical Engineering</span> and <span className="font-semibold text-white">Artificial Intelligence Systems Engineering</span>. My academic journey has equipped me with a strong foundation in both hardware and AI technologies, with a particular interest in <span className="font-semibold text-white">power systems</span>.
+            I'm currently a <span className="font-bold text-gray-100">third year student</span> at the University of Western Ontario, pursuing a dual degree in <span className="font-semibold text-white">Electrical Engineering</span> and <span className="font-semibold text-white">Artificial Intelligence Systems Engineering</span>. My academic journey has equipped me with a strong foundation in both hardware and AI technologies, with a particular interest in <span className="font-semibold text-white">power systems</span>.
           </p>
 
           <h2 className="text-xl sm:text-2xl font-semibold text-white mt-10 sm:mt-16">Interests and Hobbies</h2>
@@ -25,7 +25,6 @@ const About = () => {
             <li>Music production</li>
             <li>Video editing</li>
             <li>Reading</li>
-            <li>Learning Muay Thai</li>
           </ul>
 
           <h2 className="text-xl sm:text-2xl font-semibold text-white mt-10 sm:mt-16">Career Goals</h2>

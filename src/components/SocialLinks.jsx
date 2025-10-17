@@ -40,7 +40,7 @@ const SocialLinks = () => {
                     Resume <BsFillPersonBadgeFill size={30} />    
                 </>
             ),
-            href: '/Resume.pdf',
+            href: '/Vivek_Aruja_Resume_and_Portfolio.pdf',
             style: 'rounded-br-md',
             download: true,
         },
